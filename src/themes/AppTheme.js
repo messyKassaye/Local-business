@@ -5,7 +5,7 @@ let theme = createMuiTheme({
     palette: createPalette(
         {
             primary:{
-                main:'#0c0b2b'
+                main:'#28a745'
             },
             textSecondary:{
                 main: '#031b4e'

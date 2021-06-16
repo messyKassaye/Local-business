@@ -3,7 +3,6 @@ import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 import PrivateRoutes from "./PrivateRoute";
 import Authenticated from "../auth/Authenticated";
 import AuthenticatedRoute from "./AuthenticationRoute";
-import App from "../App";
 import HomePage from "../home/HomePage";
 
 const Routes = ()=>{
