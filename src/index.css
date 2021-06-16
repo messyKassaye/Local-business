@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.drag{
+ -webkit-app-region:drag
+}
+
+.no-drag{
+  -webket-app-region:no-drag
+}
