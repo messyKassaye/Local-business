@@ -1,8 +1,11 @@
 import React from 'react'
-
+import SignUpAndLogin from './SignUpAndLogin'
+import {isAuthenticated} from '../../TokenService'
 const Home = ()=>{
     return <div>
-        <span style={{color:'black'}}>Home page</span>
+        {
+            isAuthenticated()?<span>hallowa</span>:<SignUpAndLogin/>
+        }
     </div>
 }
 

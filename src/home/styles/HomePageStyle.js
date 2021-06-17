@@ -15,7 +15,8 @@ export const HomePageStyle  = makeStyles((theme)=>({
     },
     footer:{
         bottom:0,
-        position:'fixed'
+        position:'fixed',
+        textAlign:'center'
     },
     grow:{
         display:'flex',
